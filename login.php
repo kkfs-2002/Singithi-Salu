@@ -144,6 +144,7 @@ if (isset($_SESSION['user_id'])) {
             border: 1px solid #f5c6cb;
         }
         .form-group {
+            
             margin-bottom: 20px;
         }
         label {
