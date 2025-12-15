@@ -383,8 +383,8 @@
                 📞 0777 842982 | 📱 WhatsApp: 0711 040024
             </div>
             <div class="top-bar-right">
-                <a href="login.html">Login</a>
-                <a href="register.html">Register</a>
+                <a href="login.php">Login</a>
+                <a href="register.php">Register</a>
             </div>
         </div>
     </div>
@@ -392,16 +392,16 @@
     <!-- Main Header -->
     <header>
         <div class="header-content">
-            <div class="logo" onclick="window.location.href='index.html'">
+            <div class="logo" onclick="window.location.href='index.php'">
                 Singithi <span>Salu</span>
             </div>
             
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="products.php">Products</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -531,19 +531,19 @@
             <div class="footer-section">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="products.php">Products</a></li>
+                    <li><a href="about.php">About Us</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                 </ul>
             </div>
             <div class="footer-section">
                 <h3>Customer Service</h3>
                 <ul>
-                    <li><a href="faq.html">FAQ</a></li>
-                    <li><a href="shipping.html">Shipping Info</a></li>
-                    <li><a href="returns.html">Returns</a></li>
-                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="faq.php">FAQ</a></li>
+                    <li><a href="shipping.php">Shipping Info</a></li>
+                    <li><a href="returns.php">Returns</a></li>
+                    <li><a href="privacy.php">Privacy Policy</a></li>
                 </ul>
             </div>
             <div class="footer-section">

@@ -195,7 +195,7 @@
 </head>
 <body>
     <div class="register-container">
-        <div class="logo" onclick="window.location.href='index.html'">
+        <div class="logo" onclick="window.location.href='index.php'">
             Singithi <span>Salu</span>
         </div>
         <p class="register-subtitle">Premium Baby Products Store</p>
@@ -239,7 +239,7 @@
             <div class="terms-checkbox">
                 <input type="checkbox" id="terms" name="terms" required>
                 <label for="terms">
-                    I agree to the <a href="terms.html">Terms & Conditions</a> and <a href="privacy.html">Privacy Policy</a>
+                    I agree to the <a href="terms.php">Terms & Conditions</a> and <a href="privacy.php">Privacy Policy</a>
                 </label>
             </div>
             
@@ -251,11 +251,11 @@
         </div>
         
         <div class="login-link">
-            Already have an account? <a href="login.html">Login Here</a>
+            Already have an account? <a href="login.php">Login Here</a>
         </div>
         
         <div class="back-home">
-            <a href="index.html">← Back to Home</a>
+            <a href="index.php">← Back to Home</a>
         </div>
     </div>
 
@@ -311,7 +311,7 @@
             
             // Redirect to login page
             setTimeout(() => {
-                window.location.href = 'login.html';
+                window.location.href = 'login.php';
             }, 1000);
         }
     </script>

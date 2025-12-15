@@ -188,22 +188,22 @@
                 📞 +94 77 784 2982 | ✉ info@singithisalu.lk
             </div>
             <div class="top-bar-right">
-                <a href="login.html">Login</a>
-                <a href="register.html">Register</a>
+                <a href="login.php">Login</a>
+                <a href="register.php">Register</a>
             </div>
         </div>
     </div>
 
     <header>
         <div class="header-content">
-            <div class="logo" onclick="window.location.href='index.html'">
+            <div class="logo" onclick="window.location.href='index.php'">
                 Singithi <span>Salu</span>
             </div>
         </div>
     </header>
 
     <div class="container">
-        <a href="index.html" class="back-link">← Back to Home</a>
+        <a href="index.php" class="back-link">← Back to Home</a>
         
         <h1>Privacy Policy</h1>
         <p class="last-updated">Last Updated: January 2025</p>
@@ -296,10 +296,10 @@
             <div class="footer-section">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <li><a href="privacy.html">Privacy Policy</a></li>
-                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="about.php">About Us</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
+                    <li><a href="privacy.php">Privacy Policy</a></li>
+                    <li><a href="terms.php">Terms & Conditions</a></li>
                 </ul>
             </div>
             <div class="footer-section">

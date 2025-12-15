@@ -650,8 +650,8 @@
                 📞 +94 77 784 2982 | ✉ <a href="mailto:info@singithisalu.lk">info@singithisalu.lk</a>
             </div>
             <div class="top-bar-right">
-                <a href="login.html">Login</a>
-                <a href="register.html">Register</a>
+                <a href="login.php">Login</a>
+                <a href="register.php">Register</a>
             </div>
         </div>
     </div>
@@ -659,19 +659,19 @@
     <!-- Main Header -->
     <header>
         <div class="header-content">
-            <div class="logo" onclick="window.location.href='index.html'">
+            <div class="logo" onclick="window.location.href='index.php'">
                 Singithi <span>Salu</span>
             </div>
             
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active"><a href="product.html">All Products</a></li>
-                    <li><a href="product.html?category=new-arrivals">New Arrivals</a></li>
-                    <li><a href="product.html?category=baby-essentials">Baby Essentials</a></li>
-                    <li><a href="product.html?category=baby-gear">Baby Gear</a></li>
-                    <li><a href="product.html?category=girls-clothing">Girls Clothing</a></li>
-                    <li><a href="product.html?category=boys-clothing">Boys Clothing</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li class="active"><a href="product.php">All Products</a></li>
+                    <li><a href="product.php?category=new-arrivals">New Arrivals</a></li>
+                    <li><a href="product.php?category=baby-essentials">Baby Essentials</a></li>
+                    <li><a href="product.php?category=baby-gear">Baby Gear</a></li>
+                    <li><a href="product.php?category=girls-clothing">Girls Clothing</a></li>
+                    <li><a href="product.php?category=boys-clothing">Boys Clothing</a></li>
                 </ul>
             </nav>
 
@@ -680,11 +680,11 @@
                     <input type="text" placeholder="Search products..." id="searchInput">
                     <button onclick="searchProducts()">🔍</button>
                 </div>
-                <button class="icon-btn" onclick="window.location.href='cart.html'">
+                <button class="icon-btn" onclick="window.location.href='cart.php'">
                     🛒
                     <span class="cart-count" id="cartCount">0</span>
                 </button>
-                <button class="icon-btn" onclick="window.location.href='profile.html'">
+                <button class="icon-btn" onclick="window.location.href='profile.php'">
                     👤
                 </button>
             </div>
@@ -695,7 +695,7 @@
     <div class="page-header">
         <h1>Our Products</h1>
         <div class="breadcrumb">
-            <a href="index.html">Home</a> / Products
+            <a href="index.php">Home</a> / Products
         </div>
     </div>
 
@@ -825,17 +825,17 @@
             <div class="footer-section">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="about.php">About Us</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
+                    <li><a href="privacy.php">Privacy Policy</a></li>
                 </ul>
             </div>
             <div class="footer-section">
                 <h3>Customer Service</h3>
                 <ul>
-                    <li><a href="track-order.html">Track Order</a></li>
-                    <li><a href="returns.html">Returns</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="track-order.php">Track Order</a></li>
+                    <li><a href="returns.php">Returns</a></li>
+                    <li><a href="faq.php">FAQ</a></li>
                 </ul>
             </div>
             <div class="footer-section">

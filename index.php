@@ -618,8 +618,8 @@
                 📞 +94 77 784 2982 | ✉ <a href="mailto:info@singithisalu.lk">info@singithisalu.lk</a>
             </div>
             <div class="top-bar-right">
-                <a href="login.html">Login</a>
-                <a href="register.html">Register</a>
+                <a href="login.php">Login</a>
+                <a href="register.php">Register</a>
             </div>
         </div>
     </div>
@@ -627,19 +627,19 @@
     <!-- Main Header -->
     <header>
         <div class="header-content">
-            <div class="logo" onclick="window.location.href='index.html'">
+            <div class="logo" onclick="window.location.href='index.php'">
                 Singithi <span>Salu</span>
             </div>
             
             <nav>
                 <ul>
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="product.html?category=new-arrivals">New Arrivals</a></li>
-                    <li><a href="product.html?category=baby-essentials">Baby Essentials</a></li>
-                    <li><a href="product.html?category=baby-gear">Baby Gear</a></li>
-                    <li><a href="product.html?category=girls-clothing">Girls Clothing</a></li>
-                    <li><a href="product.html?category=boys-clothing">Boys Clothing</a></li>
-                    <li><a href="product.html?category=bedding">Bedding</a></li>
+                    <li class="active"><a href="index.php">Home</a></li>
+                    <li><a href="product.php?category=new-arrivals">New Arrivals</a></li>
+                    <li><a href="product.php?category=baby-essentials">Baby Essentials</a></li>
+                    <li><a href="product.php?category=baby-gear">Baby Gear</a></li>
+                    <li><a href="product.php?category=girls-clothing">Girls Clothing</a></li>
+                    <li><a href="product.php?category=boys-clothing">Boys Clothing</a></li>
+                    <li><a href="product.php?category=bedding">Bedding</a></li>
                 </ul>
             </nav>
 
@@ -648,11 +648,11 @@
                     <input type="text" placeholder="Search products..." id="searchInput">
                     <button onclick="searchProducts()">🔍</button>
                 </div>
-                <button class="icon-btn" onclick="window.location.href='cart.html'">
+                <button class="icon-btn" onclick="window.location.href='cart.php'">
                     🛒
                     <span class="cart-count">0</span>
                 </button>
-                <button class="icon-btn" onclick="window.location.href='profile.html'">
+                <button class="icon-btn" onclick="window.location.href='profile.php'">
                     👤
                 </button>
             </div>
@@ -666,7 +666,7 @@
                 <div class="hero-text">
                     <h1>Welcome to Singithi Salu</h1>
                     <p>Your trusted destination for premium baby products in Sri Lanka. Quality products for your little ones, delivered to your doorstep.</p>
-                    <button class="btn-primary" onclick="window.location.href='products.html'">Shop Now</button>
+                    <button class="btn-primary" onclick="window.location.href='products.php'">Shop Now</button>
                 </div>
             </div>
         </div>
@@ -675,7 +675,7 @@
                 <div class="hero-text">
                     <h1>New Arrivals Collection</h1>
                     <p>Explore our latest baby clothing, toys, and essentials. Fresh styles for your precious little ones.</p>
-                    <button class="btn-primary" onclick="window.location.href='new-arrivals.html'">Discover More</button>
+                    <button class="btn-primary" onclick="window.location.href='new-arrivals.php'">Discover More</button>
                 </div>
             </div>
         </div>
@@ -684,7 +684,7 @@
                 <div class="hero-text">
                     <h1>Special Offer - 20% OFF</h1>
                     <p>Get amazing discounts on selected baby products. Limited time offer!</p>
-                    <button class="btn-primary" onclick="window.location.href='products.html'">Shop Sale</button>
+                    <button class="btn-primary" onclick="window.location.href='products.php'">Shop Sale</button>
                 </div>
             </div>
         </div>
@@ -734,21 +734,21 @@
     <section class="new-arrivals">
         <h2 class="section-title">New Arrivals</h2>
         <div class="arrivals-grid">
-            <div class="arrival-card" onclick="window.location.href='products.html?category=girls-dresses'">
+            <div class="arrival-card" onclick="window.location.href='products.php?category=girls-dresses'">
                 <img src="79ceff8e816c3836e2c813aebbc6cc65.jpg_960x960q80.jpg_.webp" alt="Girls Dresses">
                 <div class="arrival-overlay">
                     <h3>Girls Dresses</h3>
                     <p>Beautiful new collection</p>
                 </div>
             </div>
-            <div class="arrival-card" onclick="window.location.href='products.html?category=boys-rompers'">
+            <div class="arrival-card" onclick="window.location.href='products.php?category=boys-rompers'">
                 <img src="8698df9a7fe9913cb5e31624f389c874.jpg_720x720q80.jpg" alt="Boys Rompers">
                 <div class="arrival-overlay">
                     <h3>Boys Rompers</h3>
                     <p>Comfortable & stylish</p>
                 </div>
             </div>
-            <div class="arrival-card" onclick="window.location.href='products.html?category=baby-gear'">
+            <div class="arrival-card" onclick="window.location.href='products.php?category=baby-gear'">
                 <img src="4-in-1-sit-to-stand-learning-walker-9447449.webp" alt="Baby Gear">
                 <div class="arrival-overlay">
                     <h3>Baby Gear</h3>
@@ -856,7 +856,7 @@
         <div class="promo-content">
             <h2>Special Offer - 20% OFF</h2>
             <p>Get 20% discount on all baby clothing items this week! Limited time offer.</p>
-            <button class="btn-secondary" onclick="window.location.href='products.html'">Shop Now</button>
+            <button class="btn-secondary" onclick="window.location.href='products.php'">Shop Now</button>
         </div>
     </section>
 
@@ -870,19 +870,19 @@
             <div class="footer-section">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <li><a href="privacy.html">Privacy Policy</a></li>
-                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="about.php">About Us</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
+                    <li><a href="privacy.php">Privacy Policy</a></li>
+                    <li><a href="terms.php">Terms & Conditions</a></li>
                 </ul>
             </div>
             <div class="footer-section">
                 <h3>Customer Service</h3>
                 <ul>
-                    <li><a href="track-order.html">Track Order</a></li>
-                    <li><a href="returns.html">Returns</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                    <li><a href="shipping.html">Shipping Info</a></li>
+                    <li><a href="track-order.php">Track Order</a></li>
+                    <li><a href="returns.php">Returns</a></li>
+                    <li><a href="faq.php">FAQ</a></li>
+                    <li><a href="shipping.php">Shipping Info</a></li>
                 </ul>
             </div>
             <div class="footer-section">
@@ -957,12 +957,12 @@
         function searchProducts() {
             const searchTerm = document.getElementById('searchInput').value;
             if(searchTerm) {
-                window.location.href = 'products.html?search=' + encodeURIComponent(searchTerm);
+                window.location.href = 'products.php?search=' + encodeURIComponent(searchTerm);
             }
         }
 
         function filterCategory(category) {
-            window.location.href = 'products.html?category=' + category;
+            window.location.href = 'products.php?category=' + category;
         }
 
         // Allow search on Enter key

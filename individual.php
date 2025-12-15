@@ -399,32 +399,32 @@
                 +94 77 784 2982 | info@singithisalu.lk
             </div>
             <div class="top-bar-right">
-                <a href="login.html">Login</a>
-                <a href="register.html">Register</a>
+                <a href="login.php">Login</a>
+                <a href="register.php">Register</a>
             </div>
         </div>
     </div>
 
     <header>
         <div class="header-content">
-            <div class="logo" onclick="window.location.href='index.html'">
+            <div class="logo" onclick="window.location.href='index.php'">
                 Singithi <span>Salu</span>
             </div>
             
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="products.html">All Products</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="products.php">All Products</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                 </ul>
             </nav>
 
             <div class="header-icons">
-                <button class="icon-btn" onclick="window.location.href='cart.html'">
+                <button class="icon-btn" onclick="window.location.href='cart.php'">
                     🛒
                     <span class="cart-count" id="cartCount">0</span>
                 </button>
-                <button class="icon-btn" onclick="window.location.href='profile.html'">
+                <button class="icon-btn" onclick="window.location.href='profile.php'">
                     👤
                 </button>
             </div>
@@ -432,7 +432,7 @@
     </header>
 
     <div class="breadcrumb">
-        <a href="index.html">Home</a> / <a href="products.html">Products</a> / <span id="breadcrumbCat">Category</span> / <span id="breadcrumbProd">Product</span>
+        <a href="index.php">Home</a> / <a href="products.php">Products</a> / <span id="breadcrumbCat">Category</span> / <span id="breadcrumbProd">Product</span>
     </div>
 
     <section class="product-detail">
@@ -495,8 +495,8 @@
             <div class="footer-section">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="about.php">About Us</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
                 </ul>
             </div>
             <div class="footer-section">
@@ -548,7 +548,7 @@
 
             if (!p) {
                 alert('Product not found!');
-                window.location.href = 'index.html';
+                window.location.href = 'index.php';
                 return;
             }
 
@@ -578,7 +578,7 @@
                     const p = allProducts[id];
                     const card = document.createElement('div');
                     card.className = 'product-card';
-                    card.onclick = function() { window.location.href = 'product-detail.html?id=' + id; };
+                    card.onclick = function() { window.location.href = 'product-detail.php?id=' + id; };
 
                     card.innerHTML = '<div class="product-card-image" style="background-image: url(' + p.img + ');"></div><div class="product-card-info"><h3>' + p.name + '</h3><div class="product-card-price">Rs. ' + p.price.toLocaleString() + '</div></div>';
 

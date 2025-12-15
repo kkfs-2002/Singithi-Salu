@@ -182,7 +182,7 @@
 </head>
 <body>
     <div class="login-container">
-        <div class="logo" onclick="window.location.href='index.html'">
+        <div class="logo" onclick="window.location.href='index.php'">
             Singithi <span>Salu</span>
         </div>
         <p class="login-subtitle">Premium Baby Products Store</p>
@@ -216,11 +216,11 @@
         </div>
         
         <div class="register-link">
-            Don't have an account? <a href="register.html">Register Now</a>
+            Don't have an account? <a href="register.php">Register Now</a>
         </div>
         
         <div class="back-home">
-            <a href="index.html">← Back to Home</a>
+            <a href="index.php">← Back to Home</a>
         </div>
     </div>
 
@@ -236,7 +236,7 @@
             
             // Redirect to home page
             setTimeout(() => {
-                window.location.href = 'index.html';
+                window.location.href = 'index.php';
             }, 1000);
         }
     </script>

@@ -188,22 +188,22 @@
                 📞 +94 77 784 2982 | ✉ info@singithisalu.lk
             </div>
             <div class="top-bar-right">
-                <a href="login.html">Login</a>
-                <a href="register.html">Register</a>
+                <a href="login.php">Login</a>
+                <a href="register.php">Register</a>
             </div>
         </div>
     </div>
 
     <header>
         <div class="header-content">
-            <div class="logo" onclick="window.location.href='index.html'">
+            <div class="logo" onclick="window.location.href='index.php'">
                 Singithi <span>Salu</span>
             </div>
         </div>
     </header>
 
     <div class="container">
-        <a href="index.html" class="back-link">← Back to Home</a>
+        <a href="index.php" class="back-link">← Back to Home</a>
         
         <h1>Terms & Conditions</h1>
         <p class="last-updated">Last Updated: January 2025</p>
@@ -293,7 +293,7 @@
         </ul>
 
         <h2>10. Privacy</h2>
-        <p>Your use of our website is also governed by our Privacy Policy. Please review our <a href="privacy.html" style="color: #ff69b4;">Privacy Policy</a> to understand how we collect, use, and protect your personal information.</p>
+        <p>Your use of our website is also governed by our Privacy Policy. Please review our <a href="privacy.php" style="color: #ff69b4;">Privacy Policy</a> to understand how we collect, use, and protect your personal information.</p>
 
         <h2>11. Modifications to Terms</h2>
         <p>We reserve the right to modify these Terms and Conditions at any time. Changes will be effective immediately upon posting on our website. Your continued use of the website after changes constitutes acceptance of the modified terms.</p>
@@ -324,10 +324,10 @@
             <div class="footer-section">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <li><a href="privacy.html">Privacy Policy</a></li>
-                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="about.php">About Us</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
+                    <li><a href="privacy.php">Privacy Policy</a></li>
+                    <li><a href="terms.php">Terms & Conditions</a></li>
                 </ul>
             </div>
             <div class="footer-section">
